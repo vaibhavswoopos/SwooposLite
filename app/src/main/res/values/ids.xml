@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="alertBtn" type="id" />
+    <style name="spinner_style">
+        <item name="android:background">@drawable/arrow</item>
+        <item name="android:dropDownHeight">70dp</item>
+
+    </style>
+</resources>

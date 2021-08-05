@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "936950766194",
+    "project_id": "myproject-64b47",
+    "storage_bucket": "myproject-64b47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936950766194:android:8f01f2f241eba7710880eb",
+        "android_client_info": {
+          "package_name": "com.example.notificationsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936950766194-7n83cktj7qikj8ierhpq5kecr9nipo87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notificationsample",
+            "certificate_hash": "ea323ab9bebd7ed42cffdc80730548dc2d753b67"
+          }
+        },
+        {
+          "client_id": "936950766194-pd1fvmt4umb6kk2htsckombsuo2ibknn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMlx2wqSLJZ3fgvC36HXHj2dA-ZSx8cV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936950766194-pd1fvmt4umb6kk2htsckombsuo2ibknn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936950766194:android:50a3d08f7896ec660880eb",
+        "android_client_info": {
+          "package_name": "com.example.swoopos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936950766194-pd1fvmt4umb6kk2htsckombsuo2ibknn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMlx2wqSLJZ3fgvC36HXHj2dA-ZSx8cV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936950766194-pd1fvmt4umb6kk2htsckombsuo2ibknn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/vpager"
+    tools:context="com.example.swoopos.Ftab2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="On Hand Stock"
+        android:textSize="30dp"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/blue"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="100dp"
+        android:layout_marginVertical="00dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minimum Stock"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/blue"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/Red"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:layout_marginTop="160dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

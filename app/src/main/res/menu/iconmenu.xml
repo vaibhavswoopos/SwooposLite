@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_checkout"
+        android:icon="@drawable/ic_checked"
+        android:title="Checkout"/>
+
+    <item android:id="@+id/menu_product"
+        android:icon="@drawable/ic_packing"
+        android:title="Product"/>
+
+    <item android:id="@+id/menu_previous_order"
+        android:icon="@drawable/ic_checked"
+        android:title="Previous order"/>
+
+    <item android:id="@+id/menu_customers"
+        android:icon="@drawable/ic_user"
+        android:title="Customers"/>
+
+    <item android:id="@+id/menu_staff"
+        android:icon="@drawable/ic_user"
+        android:title="Staff"/>
+
+    <item android:id="@+id/menu_analytics_report"
+        android:icon="@drawable/ic_baseline_analytics_24"
+        android:title="Analytics report"/>
+
+    <item android:id="@+id/menu_cashing_up"
+        android:icon="@drawable/ic_bill"
+        android:title="Cashing up"/>
+
+    <item android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"/>
+
+    <item android:id="@+id/menu_discount"
+        android:icon="@drawable/ic_percentage_discount"
+        android:title="Discounts"/>
+
+</menu>

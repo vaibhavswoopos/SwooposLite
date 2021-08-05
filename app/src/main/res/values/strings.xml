@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Swoopos</string>
+    <string name="swoope_lite">Swoope Lite</string>
+    <string name="grocery_store">Grocery Store</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="all_category">All Category</string>
+    <string name="new_product">New Product</string>
+    <string name="_0_50">£0.50</string>
+    <string name="redbull_sugarfree">Redbull sugarfree</string>
+
+
+    <string-array name="products">
+        <item>Boost sport citrus 500ml</item>
+        <item>Coke Regular can</item>
+        <item>KTC butter beans 400g</item>
+        <item>KTC Chilli beans 400g</item>
+        <item>Sea isle black beans 400g</item>
+        <item>Fanta exotic 330ml</item>
+        <item>Dr Pepper 330ml</item>
+        <item>Romantic Red Roses Bouquest</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>£0.50</item>
+        <item>£0.89</item>
+        <item>£1.89</item>
+        <item>£0.50</item>
+        <item>£0.89</item>
+        <item>£0.50</item>
+        <item>£0.69</item>
+        <item>£0,78</item>
+    </string-array>
+    
+    <string-array name="Spinner_Items">
+        <item>Select Variant Option</item>
+        <item>Size</item>
+        <item>Color</item>
+        <item>Weight</item>
+    </string-array>
+
+
+    <string-array name="Spinner_Items1">
+        <item>Select Variant Option</item>
+        <item>Size</item>
+        <item>Color</item>
+        <item>Weight</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
