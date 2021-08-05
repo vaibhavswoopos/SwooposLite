@@ -31,7 +31,7 @@
         <item>£0.69</item>
         <item>£0,78</item>
     </string-array>
-    
+
     <string-array name="Spinner_Items">
         <item>Select Variant Option</item>
         <item>Size</item>

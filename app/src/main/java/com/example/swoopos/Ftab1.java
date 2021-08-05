@@ -1,6 +1,7 @@
 package com.example.swoopos;
 
-import android.app.AlertDialog;
+import
+        android.app.AlertDialog;
 import android.content.Intent;
 import android.nfc.Tag;
 import android.os.Bundle;
@@ -25,22 +26,25 @@ import com.example.loginapp.R;
 
 public class Ftab1 extends Fragment {
 
-    private Button mOpenDialog;
+    private Button mOpenDialog,mOpenPopup;
     private TextView mInputDisplay;
     private RadioButton radioButton1, radioButton2;
     private LinearLayout linearLayout,linearLayout3;
     private LinearLayout Android2;
 
-    @Nullable
+
     @Override
-    public View onCreateView(LayoutInflater inflater,@Nullable ViewGroup container,@Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
         View view = inflater.inflate(R.layout.fragment_ftab1,container,false);
         radioButton2 = view.findViewById(R.id.radio2);
         radioButton1 =view.findViewById(R.id.radio1);
         linearLayout = view.findViewById(R.id.Android);
         Android2 =view.findViewById(R.id.Android1);
         linearLayout3=view.findViewById(R.id.Linear3);
+        mOpenPopup =(Button)view.findViewById(R.id.new_button);
         mOpenDialog = (Button)view.findViewById(R.id.btnShowDialog);
+
         mOpenDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,6 +52,7 @@ public class Ftab1 extends Fragment {
                myDialogFragment.show(getActivity().getSupportFragmentManager(),"MyFragment" );
             }
         });
+
         radioButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +61,6 @@ public class Ftab1 extends Fragment {
 
             }
         });
-
         radioButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

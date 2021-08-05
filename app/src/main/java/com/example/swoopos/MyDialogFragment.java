@@ -37,6 +37,7 @@ public class MyDialogFragment extends DialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
         View view = inflater.inflate(R.layout.dialog_fragment, container, false);
+
         Spinner spinner = (Spinner) view.findViewById(R.id.Spinner);
         Spinner spinner1 = (Spinner) view.findViewById(R.id.Spinner1);
         Button button = (Button)view.findViewById(R.id.btn_1);
